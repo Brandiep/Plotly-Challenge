@@ -1,5 +1,5 @@
 async function getData() {
-    const response = await fetch ("/samples.json");
+    const response = await fetch ("samples.json");
     data = await response.json();
     console.log(data)
   
